@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
     
     private func ChangeCountValue (_ value: UInt) {
-        counterLabel.text = "Значение счётчика:\n" + String(counterValue)
+        counterLabel.text = "Значение счётчика:\n" + String(value)
     }
     
 }
